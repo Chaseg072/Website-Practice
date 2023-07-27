@@ -17,7 +17,10 @@ border-bottom: 1px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 body {
-background: linear-gradient(to right, gray, black)
+background: linear-gradient(to right, gray, black);
+margin: 0;
+padding: 0;
+
 
 }
 #logo {
@@ -26,9 +29,15 @@ background: linear-gradient(to right, gray, black)
     height: 150px;
 }
 
-.row {
-    
-
-    
-
+#knifegirl {
+    width: 340px;
+    height: 340px;
 }
+.image-container1 {
+
+    position: relative;
+} 
+
+
+
+

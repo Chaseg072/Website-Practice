@@ -1,14 +1,9 @@
-header {
-   display:inline-block;
+.header {
     background-color: #49417a;
     width: 100%;
     height: 150px;
-    text-align: center;
-    
-    
-    
-    
-
+    display: flex;
+    align-items: center;
 }
 
 h1 {
@@ -17,11 +12,9 @@ border-bottom: 1px;
     color: blueviolet;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
 }
+
 body {
 background: linear-gradient(to right, gray, black);
-margin: 0;
-padding: 0;
-
 
 }
 #logo {
@@ -30,7 +23,7 @@ padding: 0;
 }
 
 #knifegirl {
-    float: right;
+    display: flex;
     width: 340px;
     height: 340px;
     position: relative;
@@ -39,15 +32,16 @@ padding: 0;
 
 
 #squidgirl {
-float: right;
- width: 350px;
- height:500px;
+display: flex;
+ width: 250px;
+ height:350px;
  margin: 5px;
 }
 
 #dogcat {
-    width: 350px;
-    height: 500px;
+    display: flex;
+    width: 250px;
+    height: 350px;
     margin: 5px;
 
 }

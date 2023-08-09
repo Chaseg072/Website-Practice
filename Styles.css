@@ -10,7 +10,10 @@ h1 {
     text-align: center;
     display:block;
     color: blueviolet;
-    font-family: 'AmaticSC';
+    font-family: AmaticSC;
+    font-style: oblique;
+    font-size: 50px;
+    margin: 3px 3px;
 }
 
 body {
@@ -20,7 +23,7 @@ background: linear-gradient(to right, gray, black);
 }
 #logo {
 
-    display: block;
+    display: flex;
 margin-left:auto;
 margin-right: auto;
     width: 150px;
@@ -28,7 +31,7 @@ margin-right: auto;
 }
 
 #knifegirl {
-    display: block;
+    display: flex;
     width: 340px;
     height: 340px;
  margin: 5px;
@@ -36,18 +39,28 @@ margin-right: auto;
 
 
 #squidgirl {
-display: block;
+display: flex;
  width: 250px;
  height:350px;
  margin: 5px;
 }
 
 #dogcat {
-    display: block;
+    display: flex;
     width: 250px;
     height: 350px;
     margin: 5px;
 
 }
 
-@import url(AmaticSC-Bold.woff);
+@font-face {
+    font-family: AmaticSC;
+    src: url(font-faces/AmaticSC-Bold.woff) format('woff');
+    
+} 
+
+@font-face {
+    font-family: AmaticSC;
+    src: url(font-faces/AmaticSC-Bold.woff) format('woff');
+    font-weight: bolder;
+} 

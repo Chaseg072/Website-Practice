@@ -1,17 +1,16 @@
 .header {
     background-color: #49417a;
-    display: flex;
-    
-    
-
-    
+    display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
     text-align: center;
     display:block;
     color: blueviolet;
-    font-family: 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    font-family: 'AmaticSC';
 }
 
 body {
@@ -20,8 +19,10 @@ background: linear-gradient(to right, gray, black);
 
 }
 #logo {
+
     display: block;
-margin: 1px;
+margin-left:auto;
+margin-right: auto;
     width: 150px;
     height: 150px;
 }
@@ -30,7 +31,6 @@ margin: 1px;
     display: block;
     width: 340px;
     height: 340px;
-    align-content: center;
  margin: 5px;
 }
 
@@ -50,3 +50,4 @@ display: block;
 
 }
 
+@import url(AmaticSC-Bold.woff);

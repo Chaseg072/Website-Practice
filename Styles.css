@@ -17,7 +17,7 @@ h1 {
 }
 
 body {
-background: linear-gradient(to right, gray, black);
+background: linear-gradient(to right, purple, black);
 
 
 }
@@ -31,27 +31,54 @@ margin-right: auto;
 }
 
 #knifegirl {
-    display: flex;
+    margin: 15px 15px;
+    display: block;
     width: 340px;
     height: 340px;
- margin: 5px;
+ 
 }
-
-
 #squidgirl {
-display: flex;
- width: 250px;
- height:350px;
- margin: 5px;
-}
 
+    display: block;
+    width: 250px;
+    height:350px;
+    margin: 15px 15px;
+}
 #dogcat {
-    display: flex;
+    display: block;
     width: 250px;
     height: 350px;
-    margin: 5px;
+    margin: 15px 15px;
 
 }
+#celebration {
+    margin: 15px 15px;
+    display: block;
+    width: 250px;
+    height: 350px;
+
+}
+#fishgirl {
+    margin: 15px 15px;
+    display: block;
+    width: 350px;
+    height: 350px;    
+}
+#fireflies {
+    margin: 15px 15px;
+    display: block;
+    width: 400px;
+    height: 400px;    
+}
+
+#oceanmother {
+    margin: 15px 15px;
+    display: block;
+    width: 300px;
+    height:400px;    
+}
+
+
 
 @font-face {
     font-family: AmaticSC;
@@ -64,3 +91,9 @@ display: flex;
     src: url(font-faces/AmaticSC-Bold.woff) format('woff');
     font-weight: bolder;
 } 
+
+.image-gallery {
+flex-wrap: wrap;
+ display: flex;
+
+}

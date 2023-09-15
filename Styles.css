@@ -1,37 +1,45 @@
 .header {
     background-color: #49417a;
-    display: block;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.header-links {
+    text-align: right;
+}
+
+.header-link {
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
     text-align: center;
-    display:block;
     color: blueviolet;
     font-family: AmaticSC;
     font-style: oblique;
     font-size: 50px;
-    margin: 3px 3px;
+    margin: 3px 0; /* Adjust margin */
 }
 
-body {
-background: linear-gradient(to right, purple, black);
-
-
-}
 #logo {
-
-    display: flex;
-margin-left:auto;
-margin-right: auto;
     width: 150px;
     height: 150px;
+    margin-top: 10px; /* Add margin-top for spacing */
 }
-
 #knifegirl {
-    margin: 15px 15px;
+    margin: 10px 10px;
     display: block;
     width: 340px;
     height: 340px;
@@ -42,37 +50,37 @@ margin-right: auto;
     display: block;
     width: 250px;
     height:350px;
-    margin: 15px 15px;
+    margin: 10px 10px;
 }
 #dogcat {
     display: block;
     width: 250px;
     height: 350px;
-    margin: 15px 15px;
+    margin: 10px 10px;
 
 }
 #celebration {
-    margin: 15px 15px;
+    margin: 10px 10px;
     display: block;
     width: 250px;
     height: 350px;
 
 }
 #fishgirl {
-    margin: 15px 15px;
+    margin: 10px 10px;
     display: block;
     width: 350px;
     height: 350px;    
 }
 #fireflies {
-    margin: 15px 15px;
+    margin: 10px 10px;
     display: block;
     width: 400px;
     height: 400px;    
 }
 
 #oceanmother {
-    margin: 15px 15px;
+    margin: 10px 10px;
     display: block;
     width: 300px;
     height:400px;    
